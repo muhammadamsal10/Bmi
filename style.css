@@ -1,0 +1,65 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 320px;
+  
+}
+
+/* Heading */
+.card h2 {
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #5a75f9;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  
+}
+
+button:hover {
+  background: #465bd4;
+}
+
+/* Result */
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+
